@@ -16,6 +16,8 @@ html {
 body {
   font-size: 1.5rem;
   font-family: var(--font-mons);
+  overflow-x: hidden;
+  color: rgb(88, 86, 86);
 }
 
 /* ------------------------------- */
@@ -33,6 +35,14 @@ li {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 1.5rem;
+}
+
+.link {
+  color: #fff;
+  padding: 1rem 1.5rem;
+  font-size: 1.6rem;
+  background: #f98404;
+  border-radius: 1rem;
 }
 
 /* ----------------------------------- */
@@ -58,8 +68,37 @@ li {
   padding: 0.7rem 1rem;
   margin-left: 0.5rem;
   font-family: var(--font-mons);
-  color: rgb(88, 86, 86);
   font-size: 1.3rem;
   letter-spacing: 1px;
   text-transform: uppercase;
+  color: inherit;
+}
+
+/* ------------- Hero ------------- */
+
+.hero-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 5rem;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+.hero-text-title {
+  font-size: 5rem;
+  font-family: var(--font-rob);
+  margin-bottom: 3rem;
+}
+.hero-text-title span {
+  color: #f98404;
+}
+
+.hero-text p {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 5rem;
+}
+
+.hero-img img {
+  width: 90%;
 }
