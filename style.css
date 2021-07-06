@@ -41,13 +41,8 @@ li {
   color: #fff;
   padding: 1rem 1.5rem;
   font-size: 1.6rem;
-  background: #f98404;
+  background: linear-gradient(to left bottom, #f94904, #fd972a);
   border-radius: 1rem;
-  transition: all 0.3s ease;
-}
-
-.link:hover {
-  background: #8b4902;
 }
 
 /* ----------------------------------- */
