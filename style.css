@@ -197,3 +197,40 @@ li {
 .recipe-box p {
   line-height: 1.5;
 }
+
+/* ---------- Gallery ------------- */
+
+.section-gallery {
+  margin-bottom: 7rem;
+}
+
+.gallery-title {
+  text-align: center;
+}
+
+.gallery-title h3 {
+  font-size: 2.6rem;
+  font-family: var(--font-rob);
+  margin-bottom: 5rem;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  padding: 1rem;
+  border-radius: 1.5rem;
+  background-color: rgb(218, 215, 215);
+  box-shadow: 0 0 2rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.gallery-img {
+  border-radius: 2rem;
+  overflow: hidden;
+  height: 20rem;
+}
+
+.gallery-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
