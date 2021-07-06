@@ -102,3 +102,44 @@ li {
 .hero-img img {
   width: 90%;
 }
+
+/* ---------- About ------------ */
+
+.section-about {
+  background-image: url(img/Frame.png);
+  background-repeat: no-repeat;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 5rem;
+  align-items: center;
+  padding: 5rem 0 0;
+}
+
+.about-img {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.about-img > img {
+  height: auto;
+  width: 20rem;
+  display: block;
+}
+
+.about-text {
+  margin-bottom: 8rem;
+}
+
+.about-text h2 {
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+}
+
+.about-text p {
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
