@@ -43,6 +43,11 @@ li {
   font-size: 1.6rem;
   background: #f98404;
   border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  background: #8b4902;
 }
 
 /* ----------------------------------- */
@@ -72,6 +77,11 @@ li {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: inherit;
+  transition: all 0.3s ease;
+}
+
+.link-item:hover {
+  color: #f98404;
 }
 
 /* ------------- Hero ------------- */
@@ -131,7 +141,7 @@ li {
 }
 
 .about-text {
-  margin-bottom: 8rem;
+  margin-bottom: 4rem;
 }
 
 .about-text h2 {
@@ -257,4 +267,29 @@ li {
 
 .analytics-box p {
   font-size: 1.2rem;
+}
+
+/* --------- Footer ------------ */
+
+footer {
+  background-color: #010129;
+  padding: 7rem 0;
+  text-align: center;
+}
+
+.footer-brand {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-family: var(--font-mons);
+}
+
+.footer-brand span {
+  color: #f98404;
+}
+
+.last-para {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  color: #fff;
 }
